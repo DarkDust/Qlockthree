@@ -1,5 +1,12 @@
 # Qlockthree
 
+This is a fork of [Qlockthree](https://github.com/bracci/Qlockthree) adapted for the [CLT 2.0](http://www.leuchtbildshop.net/epages/64015097.sf/de_DE/?ObjectPath=/Shops/64015097/Products/CLT2-RL/SubProducts/CLT2-RL-01) and a front with same [layout as used by the `mikrocontroller.net` forum](https://www.mikrocontroller.net/articles/Datei:Wordclock-frontplatte-v2.png).
+
+If you don't feel like compiling the firmware yourself, this repository also contains a compiled firmware that can be flashed via ISP: [Firmware download](Qlockthree.hex)
+
+In order to flash the firmware with an ISP programmer, a simple breadboard setup is sufficient: connect the ISP pins (MISO, MOSI, SCK, RESET, VCC, GND) and also connect a 16 MHz crystal between pins 9 and 10 and connect each pin to GND with a 22 pF ceramic capacitor each.
+
+
 ## Short installation guide:
 
 In order to get the firmware compile you have to install following libraries:

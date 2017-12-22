@@ -19,8 +19,8 @@
 */
 #include "Renderer.h"
 
-#include "Woerter_DE.h"
-// #include "Woerter_DE_MKF.h"
+//#include "Woerter_DE.h"
+#include "Woerter_DE_MKF.h"
 #include "Woerter_CH.h"
 #include "Woerter_EN.h"
 #include "Woerter_FR.h"
