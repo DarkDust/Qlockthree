@@ -4,7 +4,7 @@ This is a fork of [Qlockthree](https://github.com/bracci/Qlockthree) adapted for
 
 If you don't feel like compiling the firmware yourself, this repository also contains a compiled firmware that can be flashed via ISP: [Firmware download](Qlockthree.hex)
 
-In order to flash the firmware with an ISP programmer, a simple breadboard setup is sufficient: connect the ISP pins (MISO, MOSI, SCK, RESET, VCC, GND) and also connect a 16 MHz crystal between pins 9 and 10 and connect each pin to GND with a 22 pF ceramic capacitor each.
+In order to flash the firmware with an ISP programmer, a simple breadboard setup is sufficient: connect the ISP pins (MISO, MOSI, SCK, RESET, VCC, GND), connect a 16 MHz crystal between pins 9 and 10, and also connect pins 9 and 10 to GND with a 22 pF ceramic capacitor each.
 
 
 ## Short installation guide:
